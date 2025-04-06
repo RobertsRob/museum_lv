@@ -2,6 +2,17 @@ const slidesContainer = document.getElementById('slides-container');
 const progressBar = document.querySelector('.progress-bar');
 let slides = [];
 let currentSlideIndex = 0;
+let sizesInPercent = [100, 150, 100, 200, 100];
+let yOffsets = [30, 45, 30, 40, 30];
+let xOffsets = [50, 10, 50, 90, 50];
+let urls = [
+  "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barona-muzejs3-1024x682.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barona-muzejs3-1024x682.jpg"
+
+]
 
 // Fetch slides from the JSON file
 fetch('slides.json')
@@ -39,14 +50,18 @@ function updateBackgroundPosition() {
     const body = document.body;
     const isMobile = window.innerWidth <= 768;
   
-    const yOffset = `${currentSlideIndex * 20}%`;
+    let yOffset = `${yOffsets[currentSlideIndex]}%`;
+    let xOffset = `${xOffsets[currentSlideIndex]}%`;
+    body.style.backgroundSize = `${sizesInPercent[currentSlideIndex]}%`;
+
   
     if (isMobile) {
-      body.style.backgroundPosition = `center ${yOffset}`;
+      body.style.backgroundPosition = `${xOffset} ${yOffset}`;
     } else {
-      const xOffset = (currentSlideIndex % 2 === 0) ? 'center' : 'left';
+      //const xOffset = 'center';
       body.style.backgroundPosition = `${xOffset} ${yOffset}`;
     }
+    body.style.backgroundImage = `url(${urls[currentSlideIndex]})`;
 }
 
 // Show a specific slide
