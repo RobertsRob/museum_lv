@@ -2,9 +2,9 @@ const slidesContainer = document.getElementById('slides-container');
 const progressBar = document.querySelector('.progress-bar');
 let slides = [];
 let currentSlideIndex = 0;
-let sizesInPercent = [100, 150, 100, 180, 125, 115, 100, 170, 115, 70, 100];
-let yOffsets = [30, 45, 30, 40, 30, 30, 30, 40, 30, 30, 30];
-let xOffsets = [50, 10, 50, 90, 50, 50, 50, 85, 50, 50, 50];
+let sizesInPercent = [100, 150, 100, 180, 125, 115, 100, 170, 115, 70, 110, 120, 115, 100];
+let yOffsets = [30, 45, 30, 40, 30, 30, 30, 40, 30, 30, 35, 40];
+let xOffsets = [50, 10, 50, 90, 50, 50, 50, 85, 50, 50, 50, 50];
 let urls = [
   "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
@@ -17,7 +17,11 @@ let urls = [
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/0022-4.jpg",
   "https://images.squarespace-cdn.com/content/v1/62b85870cef97862d6324f88/547d070a-90f7-4bb8-910c-5e34296e89ec/museum+of+the+home+geffrye+london",
   "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
+  "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg",
+  "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg",
+  "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg",
 ]
+let isgame = false;
 
 // Fetch slides from the JSON file
 fetch('slides.json')
@@ -98,3 +102,11 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') nextSlide();
   if (e.key === 'ArrowLeft') prevSlide();
 });
+
+function game() {
+  isgame = !isgame;
+  if (isgame) {
+    showSlide(11);
+  } else {showSlide(0);}
+  
+}
