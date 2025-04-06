@@ -2,19 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Comic Sans MS";
 }
 body {
-    background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?cs=srgb&dl=pexels-joshkjack-135018.jpg&fm=jpg");
+    background-image: url("https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    transition: background-position 1s ease; /* Smooth transition for background position */
+    transition: background-position 1s ease-in-out, background-image 1s ease-in-out, background-size 1s ease-in-out;
 }
 
 html, body{
     height: 100%;
     overflow: hidden;
-    font-family: Arial, sans-serif;
 }
 
 .slide {
@@ -22,7 +22,7 @@ html, body{
     height: 100vh;
     width: 100vw;
     padding: 60px;
-    background-color: #f5f5f5b6;
+    background-color: #f5f5f566;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 .slide-images img {
-  max-width: 45%;
+  max-width: 25%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
