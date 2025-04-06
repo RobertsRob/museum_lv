@@ -23,8 +23,12 @@ html, body{
     margin-bottom: 20px;}.slide p {
     font-size: 1.5em;
     max-width: 800px;
-    color: #333;}.active {
-    display: flex;}.nav-buttons {
+    color: #333;
+}
+.active {
+    display: flex;
+}
+.nav-buttons {
     position: fixed;
     bottom: 30px;
     left: 50%;
