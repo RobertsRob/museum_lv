@@ -1,8 +1,8 @@
 [
     {
       "title": "Ieejas zāle",
-      "content": "bla bla bla",
-      "image": []
+      "content": "Kristjānis Barons (1835–1923) bija latviešu literāts, folklorists un sabiedriskais darbinieks, kuru bieži dēvē par \"latviešu folkloras tēvu\". Viņš ir pazīstams ar savu ieguldījumu latviešu tautasdziesmu vākšanā un pētīšanā, kā arī par latviešu rakstniecības attīstību. Barons ir viens no svarīgākajiem Latvijas kultūras veidotājiem 19. gadsimtā.",
+      "image": ["https://enciklopedija.lv/api/image/original?name=d3f7fff39112-6ef36a00-2cbe-40bc-816f-6f7af1b52ddf.jpg", "https://enciklopedija.lv/api/image/original?name=acd183b814f3-bc75381a-3c3e-4203-8fe8-51c90f9c4bf8.jpg"]
     },
     {
       "title": "",
@@ -10,9 +10,9 @@
       "image": []
     },
     {
-      "title": "1. istaba",
-      "content": "<b>eto kartinka iz realnogo Kr. barona muzeja</b>",
-      "image": []
+      "title": "1. zāle",
+      "content": "Krišjānis Barons (1835–1923) bija latviešu folklorists un rakstnieks, kas ievērojami veicināja tautasdziesmu vākšanu un pētīšanu. Viņš studēja Jelgavā un Tērbatas universitātē, pēc tam kļuva par skolotāju un publicēja vairākus rakstus. Atgriezies Latvijā 1893. gadā, viņš dzīvoja Burtnieku mājā līdz mūža beigām, un viņa bēres 1923. gadā kļuva par tautas manifestāciju.",
+      "image": ["https://enciklopedija.lv/api/image/original?name=6d192a5cfbd7-808cf3fc-8b02-408f-a91d-cb7855822159.jpg", "https://enciklopedija.lv/api/image/original?name=504da5cdd1b8-7af71a89-a478-4d0f-b102-2490d69ea4c0.jpg"]
     },
     {
       "title": "",
@@ -20,19 +20,19 @@
       "image": []
     },
     {
-      "title": "2.istaba",
-      "content": "bla bla",
+      "title": "2. zāle",
+      "content": "Rakstīja par dabaszinātnēm, mērķis bija palīdzēt cilvēkiem atbrīvoties no māņticības un tumsonības. Publicēja vairāk nekā 150 rakstu par zinātni un izglītību “Lai nestāvētu bez darba, sapulcēju ap sevi mazos radu bērnus un mācīju tos grāmatā. Tādās veltīgās gaidās man pagāja vesels gads. Taču neteikšu, ka šis gads  būtu atzīmējams kā zaudējums manā mūžā. Es ņēmu dzīvu dalību Dundagas latviešu sadzīvē un jo vairāk stiprinājos savā tautiskā apziņā un atzinu savus pienākumus pret tautu.",
+      "image": ["https://enciklopedija.lv/api/image/original?name=504da5cdd1b8-7af71a89-a478-4d0f-b102-2490d69ea4c0.jpg", " https://enciklopedija.lv/api/image/original?name=2f9553cef335-2c26944c-2e33-4bbd-943e-0b1fc6435111.jpg "]
+    },
+    {
+      "title": "Ieejas zāle",
+      "content": "",
       "image": []
     },
     {
-      "title": "Ieejas zale",
-      "content": "bla bla",
-      "image": []
-    },
-    {
-      "title": "3. ustaba",
-      "content": "bla bla",
-      "image": []
+      "title": "3. zāle",
+      "content": "Krišjānis Barons, pazīstams kā Dainu Tēvs, ievērojami veicināja latviešu tautasdziesmu vākšanu un saglabāšanu. Viņa izveidotais Dainu skapis, kas saturēja tūkstošiem dziesmu, kļuva par svarīgu kultūras mantojumu, un vēlākā digitalizācija ļāva šos tekstus pieejamākus plašākai sabiedrībai. Barona darbs palīdzēja nostiprināt latviešu tautas identitāti un saglabāt tās kultūru.",
+      "image": ["https://enciklopedija.lv/api/image/original?name=2ff2f770d53a-0808ab08-e65a-4984-afa7-783cfaf7a37f.jpg", "https://enciklopedija.lv/api/image/original?name=b8243872fdc2-2fdb7af7-a680-40bb-9566-54b9db6bfc5c.jpg"]
     },
     {
       "title": "",
@@ -40,36 +40,23 @@
       "image": []
     },
     {
-      "title": "4. istaba",
-      "content": "",
-      "image": []
-    },
-    {
-      "title": "5. istaba",
-      "content": "",
-      "image": []
+      "title": "4. zāle",
+      "content": "Dainu skapis, izstrādāts Krišjāņa Barona 1880. gadā, ir nozīmīgs latviešu kultūras piemineklis, kas veicina tautasdziesmu sistematizāciju un saglabāšanu. Tas ir aprīkots ar 70 atvilktnēm, kurās glabājas 268 815 lapiņas ar tautasdziesmām, mīklām un sakāmvārdiem, un šis darbs vēlāk tika digitalizēts, kļūstot pieejams internetā. Dainu skapis ir iekļauts UNESCO \"Pasaules atmiņa\" reģistrā, atspoguļojot latviešu tautas mutvārdu tradīcijas un Barona metodoloģisko ieguldījumu folkloristikā.",
+      "image": ["https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR7KUbPe3k16S_ET3EiXtRNKR1yIpY25w1HDcsQWWnXrgQxbDfmztqCYj5ximIZP9BEY8t5t9IYu2JdfFeC7bGSvXL745hCe5qKKyevwg", "https://enciklopedija.lv/api/image/original?name=d3f7fff39112-6ef36a00-2cbe-40bc-816f-6f7af1b52ddf.jpg"]
     },
     {
       "title": "Izeja",
       "content": "",
       "image": []
     },
-
-
-
     {
-      "title": "Game",
-      "content": "My spele",
-      "image": []
+      "title": "5. zāle",
+      "content": "Krišjāņa Barona \"Latvju dainas\" ir milzīgs latviešu tautasdziesmu krājums, kas apkopojot 217 996 dziesmas, veicināja latviešu tautas identitātes un pašapziņas attīstību. Šī tautasdziesmu vākšana ne tikai saglabāja kultūras mantojumu, bet arī kļuva par svarīgu vēsturiskās un kultūras apziņas pamatu, veidojot vienotu latviešu tautu. Mūsdienās \"Latvju dainas\" joprojām ir nozīmīgas kultūras un izglītības procesos, veicinot valodas un tradīciju saglabāšanu.",
+      "image": ["https://enciklopedija.lv/api/image/original?name=1acf4290eec6-a257fe74-dc65-46e0-993b-a13a4ca01f54.jpg", "https://enciklopedija.lv/api/image/original?name=bb0edc17b124-ead96c11-7477-47bc-a09e-3961c901f872.jpg"]
     },
     {
-      "title": "1. jautājums",
-      "content": "<b style = \"color:black;\">Kāpēc Krišjānis Barons tiek dēvēts par \"tautasdziesmu tēvu\"?<br>A) Viņš pats sacerēja tūkstošiem tautasdziesmu<br>B) Viņš vadīja kori, kurš dziedāja tautasdziesmas<br>C) Viņš tās savāca, sakārtoja un publicēja sistemātiski<br>D) Viņš uzrakstīja pirmo latviešu tautasdziesmu",
-      "image": []
-    },
-    {
-      "title": "1. jautājums",
-      "content": "<a>Kāpēc Krišjānis Barons tiek dēvēts par \"tautasdziesmu tēvu\"?<br>A) Viņš pats sacerēja tūkstošiem tautasdziesmu<br>B) Viņš vadīja kori, kurš dziedāja tautasdziesmas</a><br><b>C) Viņš tās savāca, sakārtoja un publicēja sistemātiski</b><br><a>D) Viņš uzrakstīja pirmo latviešu tautasdziesmu</a>",
+      "title": "Spēle",
+      "content": "",
       "image": []
     }
 ]
