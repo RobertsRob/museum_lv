@@ -71,3 +71,17 @@ button:hover {
   background-color: #4caf50;
   transition: width 0.3s ease;
 }
+
+.slide-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.slide-images img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 

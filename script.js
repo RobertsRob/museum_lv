@@ -18,6 +18,9 @@ function renderSlides() {
   slidesContainer.innerHTML = slides
     .map((slide, index) => `
       <div class="slide ${index === 0 ? 'active' : ''}">
+        <div class="slide-images">
+          ${slide.image.map(image => `<img src="${image}" alt="Slide Image">`).join('')}
+        </div>
         <h2>${slide.title}</h2>
         <p>${slide.content}</p>
       </div>

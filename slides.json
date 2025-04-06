@@ -1,27 +1,33 @@
 [
     {
       "title": "Ieejas zāle",
-      "content": "Krišjānis Barons (1835–1923) bija izcils latviešu tautasdziesmu vācējs, publicists un valodnieks. Viņš tiek dēvēts par 'Dziesmu tēvu', jo bija galvenais latviešu tautasdziesmu sistematizētājs. Viņa darbība ir viena no Latvijas kultūras stūrakmeņiem – tieši pateicoties Baronam, daudzas dziesmas, kas tika nodotas mutvārdos, ir saglabātas līdz mūsdienām."
+      "content": "Krišjānis Barons (1835–1923) bija izcils latviešu tautasdziesmu vācējs, publicists un valodnieks. Viņš tiek dēvēts par 'Dziesmu tēvu', jo bija galvenais latviešu tautasdziesmu sistematizētājs. Viņa darbība ir viena no Latvijas kultūras stūrakmeņiem – tieši pateicoties Baronam, daudzas dziesmas, kas tika nodotas mutvārdos, ir saglabātas līdz mūsdienām.",
+      "image": ["https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg"]
     },
     {
       "title": "Bērnības istaba",
-      "content": "Krišjānis Barons dzimis 1835. gada 31. oktobrī Strutelē, Dundagas pagastā. Viņa bērnība pagāja Kaltenes muižas teritorijā. Jau agrā vecumā viņā izpaudās zinātkāre un spēja koncentrēties uz mācībām."
+      "content": "Krišjānis Barons dzimis 1835. gada 31. oktobrī Strutelē, Dundagas pagastā. Viņa bērnība pagāja Kaltenes muižas teritorijā. Jau agrā vecumā viņā izpaudās zinātkāre un spēja koncentrēties uz mācībām.",
+      "image": []
     },
     {
       "title": "Studentu istaba",
-      "content": "1856. gadā Barons iestājās Tērbatas Universitātē, kur viņš studēja matemātiku un dabaszinātnes. Tajā laikā viņš pievērsās arī literatūrai un žurnālistikai, kā arī latviešu kultūras un valodas jautājumiem."
+      "content": "1856. gadā Barons iestājās Tērbatas Universitātē, kur viņš studēja matemātiku un dabaszinātnes. Tajā laikā viņš pievērsās arī literatūrai un žurnālistikai, kā arī latviešu kultūras un valodas jautājumiem.",
+      "image": []
     },
     {
       "title": "Darba istaba",
-      "content": "Barons sāka vākt, pierakstīt un sistematizēt latviešu tautasdziesmas. Viņš apkopoja vairāk nekā 200 000 dziesmu, kuras tika publicētas darbā 'Latvju dainas' sešos sējumos."
+      "content": "Barons sāka vākt, pierakstīt un sistematizēt latviešu tautasdziesmas. Viņš apkopoja vairāk nekā 200 000 dziesmu, kuras tika publicētas darbā 'Latvju dainas' sešos sējumos.",
+      "image": []
     },
     {
       "title": "Kabinete",
-      "content": "Lai sistematizētu dziesmas, Barons izveidoja Dziesmu skapi – īpašu mēbeli ar vairāk nekā 268 000 lapiņām. Skapis glabājas Latvijas Nacionālajā bibliotēkā un iekļauts UNESCO programmā 'Pasaules atmiņa'."
+      "content": "Lai sistematizētu dziesmas, Barons izveidoja Dziesmu skapi – īpašu mēbeli ar vairāk nekā 268 000 lapiņām. Skapis glabājas Latvijas Nacionālajā bibliotēkā un iekļauts UNESCO programmā 'Pasaules atmiņa'.",
+      "image": []
     },
     {
       "title": "Goda zāle",
-      "content": "Krišjānis Barons nomira 1923. gadā un tika apbedīts Raiņa kapos. Viņa devums tiek augstu novērtēts – viņa vārdā nosauktas ielas, skolas un muzeji, un viņa darbs joprojām iedvesmo."
+      "content": "Krišjānis Barons nomira 1923. gadā un tika apbedīts Raiņa kapos. Viņa devums tiek augstu novērtēts – viņa vārdā nosauktas ielas, skolas un muzeji, un viņa darbs joprojām iedvesmo.",
+      "image": []
     }
-  ]
+]
   
