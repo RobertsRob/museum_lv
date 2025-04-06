@@ -6,67 +6,6 @@
   <title>Interactive Virtual Museum</title>
 </head>
 <body>
-  <div class="room" id="room1">
-    <div class="ceiling">Museum Room 1</div>
-    <div class="walls">
-      <div class="wall" onclick="showInfo(this)" data-info="Krišjānis Barons (1818-1895) was a prominent Latvian cultural figure, known as the 'Father of Dainas'.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Krisjanis_Barons.jpg" alt="Krišjānis Barons" />
-      </div>
-      <div class="wall" onclick="showInfo(this)" data-info="Dainu Skapis: A symbol of traditional Latvian dainu collections and cultural heritage.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Dainu_skapis_2019.jpg" alt="Dainu Skapis" />
-      </div>
-      <div class="wall" onclick="showInfo(this)" data-info="Karlis Barons Memorial: A tribute to the contributions of Krišjānis Barons to Latvian culture.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Karlis_Barons_memorial.jpg" alt="Memorial" />
-        ABOBA ROBERT LOH 1234
-      </div>
-    </div>
-    <div class="floor"></div>
-  </div>
   
-  <div class="room hidden" id="room2">
-    <!-- Remove ceiling; background shows full floor texture -->
-    <div class="desktop">
-      <div class="item" onclick="showInfo(this)" data-info="World Map: Explore global geography and cartographic history.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" alt="World Map" />
-      </div>
-      <div class="item" onclick="showInfo(this)" data-info="Ancient Document: A historical document revealing secrets of the past.">
-        <img src="https://via.placeholder.com/200x150.png?text=Document" alt="Document" />
-      </div>
-      <div class="item" onclick="showInfo(this)" data-info="Artifact Sculpture: A modern interpretation celebrating cultural heritage.">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Barona_Skapis_Sculpture.jpg" alt="Artifact Sculpture" />
-      </div>
-    </div>
-    <div class="desk-label">Table Workplace</div>
-  </div>
-
-  <!-- Navigation Button -->
-  <button class="nav-button" onclick="toggleRooms()">Switch Room</button>
-
-  <!-- Modal for showing information -->
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <button class="modal-close" onclick="closeModal()">Close</button>
-      <div id="modal-text"></div>
-    </div>
-  </div>
-
-  <script>
-    function toggleRooms() {
-      const room1 = document.getElementById('room1');
-      const room2 = document.getElementById('room2');
-      room1.classList.toggle('hidden');
-      room2.classList.toggle('hidden');
-    }
-    
-    function showInfo(element) {
-      const info = element.getAttribute('data-info');
-      document.getElementById('modal-text').innerText = info;
-      document.getElementById('modal').classList.add('visible');
-    }
-    
-    function closeModal() {
-      document.getElementById('modal').classList.remove('visible');
-    }
-  </script>
 </body>
 </html>
