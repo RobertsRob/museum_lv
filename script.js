@@ -10,6 +10,7 @@ fetch('slides.json')
     slides = data;
     renderSlides();
     updateProgressBar();
+    updateBackgroundPosition(); // Set initial background position
   })
   .catch(error => console.error('Error loading slides:', error));
 
@@ -34,6 +35,14 @@ function updateProgressBar() {
   progressBar.style.width = progress + '%';
 }
 
+// Update background position
+function updateBackgroundPosition() {
+  const body = document.body;
+  const xOffset = (currentSlideIndex % 2 === 0) ? 'center' : 'left'; // Alternate between center and left
+  const yOffset = `${currentSlideIndex * 20}%`; // Move vertically based on slide index
+  body.style.backgroundPosition = `${xOffset} ${yOffset}`;
+}
+
 // Show a specific slide
 function showSlide(index) {
   const slideElements = document.querySelectorAll('.slide');
@@ -42,6 +51,7 @@ function showSlide(index) {
   });
   currentSlideIndex = index;
   updateProgressBar();
+  updateBackgroundPosition(); // Update background position on slide change
 }
 
 // Navigate to the previous slide
