@@ -30,7 +30,7 @@ function renderSlides() {
 
 // Update progress bar
 function updateProgressBar() {
-  const progress = ((currentSlideIndex + 1) / slides.length) * 100;
+  const progress = ((currentSlideIndex) / (slides.length - 1)) * 100;
   progressBar.style.width = progress + '%';
 }
 
