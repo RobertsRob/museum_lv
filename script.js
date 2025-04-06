@@ -1,24 +1,34 @@
 const slides = document.querySelectorAll('.slide');
-let current = 0;
+const progressBar = document.querySelector('.progress-bar');
+let currentSlideIndex = 0;
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-    slide.classList.remove('active');
-    if (i === index) slide.classList.add('active');
-    });
+function updateProgressBar() {
+  const progress = ((currentSlideIndex + 1) / slides.length) * 100;
+  progressBar.style.width = progress + '%';
 }
 
-function nextSlide() {
-    current = (current + 1) % slides.length;
-    showSlide(current);
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === index);
+  });
+  currentSlideIndex = index;
+  updateProgressBar();
 }
 
 function prevSlide() {
-    current = (current - 1 + slides.length) % slides.length;
-    showSlide(current);
+  const newIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+  showSlide(newIndex);
+}
+
+function nextSlide() {
+  const newIndex = (currentSlideIndex + 1) % slides.length;
+  showSlide(newIndex);
 }
 
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') nextSlide();
-    if (e.key === 'ArrowLeft') prevSlide();
+  if (e.key === 'ArrowRight') nextSlide();
+  if (e.key === 'ArrowLeft') prevSlide();
 });
+
+// Initialize the progress bar on page load
+updateProgressBar();
