@@ -2,16 +2,21 @@ const slidesContainer = document.getElementById('slides-container');
 const progressBar = document.querySelector('.progress-bar');
 let slides = [];
 let currentSlideIndex = 0;
-let sizesInPercent = [100, 150, 100, 200, 100];
-let yOffsets = [30, 45, 30, 40, 30];
-let xOffsets = [50, 10, 50, 90, 50];
+let sizesInPercent = [100, 150, 100, 180, 125, 115, 100, 170, 115, 70, 100];
+let yOffsets = [30, 45, 30, 40, 30, 30, 30, 40, 30, 30, 30];
+let xOffsets = [50, 10, 50, 90, 50, 50, 50, 85, 50, 50, 50];
 let urls = [
   "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barona-muzejs3-1024x682.jpg",
-  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barona-muzejs3-1024x682.jpg"
-
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barona-muzejs3-1024x682.jpg",
+  "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
+  "https://montecristomagazine.com/wp-content/uploads/2019/01/dining-room-002.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/0022-4.jpg",
+  "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/0022-4.jpg",
+  "https://images.squarespace-cdn.com/content/v1/62b85870cef97862d6324f88/547d070a-90f7-4bb8-910c-5e34296e89ec/museum+of+the+home+geffrye+london",
+  "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
 ]
 
 // Fetch slides from the JSON file
@@ -77,14 +82,16 @@ function showSlide(index) {
 
 // Navigate to the previous slide
 function prevSlide() {
+  if (currentSlideIndex !== 0) {
   const newIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
-  showSlide(newIndex);
+  showSlide(newIndex);}
 }
 
 // Navigate to the next slide
 function nextSlide() {
   const newIndex = (currentSlideIndex + 1) % slides.length;
-  showSlide(newIndex);
+  if (newIndex !== 0) { showSlide(newIndex);}
+ 
 }
 
 document.addEventListener('keydown', (e) => {
