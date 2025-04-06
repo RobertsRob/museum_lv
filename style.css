@@ -88,7 +88,7 @@ button:hover {
 }
 
 .slide-images img {
-  max-width: 16%;
+  max-width: 45%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
