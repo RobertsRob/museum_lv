@@ -1,33 +1,27 @@
 [
     {
       "title": "Ieejas zāle",
-      "content": "Krišjānis Barons (1835–1923) bija izcils latviešu tautasdziesmu vācējs, publicists un valodnieks. Viņš tiek dēvēts par 'Dziesmu tēvu', jo bija galvenais latviešu tautasdziesmu sistematizētājs. Viņa darbība ir viena no Latvijas kultūras stūrakmeņiem – tieši pateicoties Baronam, daudzas dziesmas, kas tika nodotas mutvārdos, ir saglabātas līdz mūsdienām.",
-      "image": ["https://enciklopedija.lv/api/image/thumbnail?name=2f9553cef335-2c26944c-2e33-4bbd-943e-0b1fc6435111.jpg&size=title"]
+      "content": "bla bla bla",
+      "image": []
     },
     {
-      "title": "Bērnības istaba",
-      "content": "Krišjānis Barons dzimis 1835. gada 31. oktobrī Strutelē, Dundagas pagastā. Viņa bērnība pagāja Kaltenes muižas teritorijā. Jau agrā vecumā viņā izpaudās zinātkāre un spēja koncentrēties uz mācībām.",
-      "image": ["https://memorialiemuzeji.lv/wp-content/uploads/2019/01/KB_berniba.jpg"]
+      "title": "",
+      "content": "",
+      "image": []
     },
     {
-      "title": "Studentu istaba",
-      "content": "1856. gadā Barons iestājās Tērbatas Universitātē, kur viņš studēja matemātiku un dabaszinātnes. Tajā laikā viņš pievērsās arī literatūrai un žurnālistikai, kā arī latviešu kultūras un valodas jautājumiem.",
-      "image": ["https://literatura.lv/files/person/thumbnails/000/000/003/original/k_barons2.jpg"]
+      "title": "1. istaba",
+      "content": "eto kartinka iz realnogo Kr. barona muzeja",
+      "image": []
     },
     {
-      "title": "Darba istaba",
-      "content": "Barons sāka vākt, pierakstīt un sistematizēt latviešu tautasdziesmas. Viņš apkopoja vairāk nekā 200 000 dziesmu, kuras tika publicētas darbā 'Latvju dainas' sešos sējumos.",
-      "image": ["https://memorialiemuzeji.lv/wp-content/uploads/2019/01/Barons_darba.jpg"]
+      "title": "",
+      "content": "",
+      "image": []
     },
     {
-      "title": "Kabinete",
-      "content": "Lai sistematizētu dziesmas, Barons izveidoja Dziesmu skapi – īpašu mēbeli ar vairāk nekā 268 000 lapiņām. Skapis glabājas Latvijas Nacionālajā bibliotēkā un iekļauts UNESCO programmā 'Pasaules atmiņa'.",
-      "image": ["https://memorialiemuzeji.lv/wp-content/uploads/2019/01/Dziesmu-skapis.jpg"]
-    },
-    {
-      "title": "Goda zāle",
-      "content": "Krišjānis Barons nomira 1923. gadā un tika apbedīts Raiņa kapos. Viņa devums tiek augstu novērtēts – viņa vārdā nosauktas ielas, skolas un muzeji, un viņa darbs joprojām iedvesmo.",
-      "image": ["https://literatura.lv/files/person/thumbnails/000/000/003/original/Barona_kaps.jpg"]
+      "title": "2.istaba",
+      "content": "bla bla",
+      "image": []
     }
 ]
-  
