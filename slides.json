@@ -11,7 +11,7 @@
     },
     {
       "title": "1. istaba",
-      "content": "eto kartinka iz realnogo Kr. barona muzeja",
+      "content": "<b>eto kartinka iz realnogo Kr. barona muzeja</b>",
       "image": []
     },
     {
@@ -52,6 +52,24 @@
     {
       "title": "Izeja",
       "content": "",
+      "image": []
+    },
+
+
+
+    {
+      "title": "Game",
+      "content": "My spele",
+      "image": []
+    },
+    {
+      "title": "1. jautājums",
+      "content": "<b style = \"color:black;\">Kāpēc Krišjānis Barons tiek dēvēts par \"tautasdziesmu tēvu\"?<br>A) Viņš pats sacerēja tūkstošiem tautasdziesmu<br>B) Viņš vadīja kori, kurš dziedāja tautasdziesmas<br>C) Viņš tās savāca, sakārtoja un publicēja sistemātiski<br>D) Viņš uzrakstīja pirmo latviešu tautasdziesmu",
+      "image": []
+    },
+    {
+      "title": "1. jautājums",
+      "content": "<a>Kāpēc Krišjānis Barons tiek dēvēts par \"tautasdziesmu tēvu\"?<br>A) Viņš pats sacerēja tūkstošiem tautasdziesmu<br>B) Viņš vadīja kori, kurš dziedāja tautasdziesmas</a><br><b>C) Viņš tās savāca, sakārtoja un publicēja sistemātiski</b><br><a>D) Viņš uzrakstīja pirmo latviešu tautasdziesmu</a>",
       "image": []
     }
 ]
