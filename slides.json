@@ -57,6 +57,11 @@
     {
       "title": "Spēle",
       "content": "Noskanē kodu, lai piedalīties!",
-      "image": []
+      "image": ["qr_game.png"]
+    },
+    {
+      "title": "Rezultāti",
+      "content": "Noskanē kodu, lai redzetu atbildes un rezultātus!",
+      "image": ["qr_game_result.png"]
     }
 ]
