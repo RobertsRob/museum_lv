@@ -2,9 +2,9 @@ const slidesContainer = document.getElementById('slides-container');
 const progressBar = document.querySelector('.progress-bar');
 let slides = [];
 let currentSlideIndex = 0;
-let sizesInPercent = [100, 150, 100, 180, 125, 115, 100, 170, 115, 110, 100, 100];
-let yOffsets = [30, 45, 30, 40, 30, 30, 30, 40, 30, 30, 30, 45];
-let xOffsets = [50, 10, 50, 90, 50, 50, 50, 85, 50, 50, 50, 50];
+let sizesInPercent = [100, 150, 100, 180, 125, 115, 100, 170, 115, 110, 100, 100, 100];
+let yOffsets = [30, 45, 30, 40, 30, 30, 30, 40, 30, 30, 30, 45, 55];
+let xOffsets = [50, 10, 50, 90, 50, 50, 50, 85, 50, 50, 50, 50, 50];
 let urls = [
   "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
   "https://memorialiemuzeji.lv/wp-content/uploads/2020/12/Krisjana-Barons-muzejs1-1024x682.jpg",
@@ -18,6 +18,7 @@ let urls = [
   "https://things-to-do.com/paris/wp-content/uploads/2017/09/Cognac-Jay.jpg",
   "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg",
   "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg",
+  "https://old.tourism.sigulda.lv/userfiles/gallery/1591010265444.jpg"
 ]
 
 // Fetch slides from the JSON file
